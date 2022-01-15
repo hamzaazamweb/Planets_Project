@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/hamzaazamweb/Planets_Project#readme",
   "dependencies": {
     "csv-parse": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
